@@ -24,7 +24,7 @@ export default function Searcher() {
 
         setData(JSON.parse(_data.data));
 
-        console.log(JSON.parse(_data.data.default));
+        console.log(JSON.parse(_data.data));
 
     }
 
