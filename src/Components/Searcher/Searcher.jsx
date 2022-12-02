@@ -16,7 +16,7 @@ export default function Searcher() {
         console.log(searchTerm);
         console.log(startDate);
         console.log(endDate);
-        const _data = await axios.post(`http://localhost:8000/`, {
+        const _data = await axios.post(`https://market-analyzer.vercel.app/`, {
             term: searchTerm,
             startDate: startDate,
             endDate: endDate,

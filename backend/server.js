@@ -8,7 +8,7 @@ const googleTrends = require("google-trends-api");
 const app = express();
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://market-analyzer.vercel.app/",
     credentials: true,
   })
 );
